@@ -1,0 +1,100 @@
+:root {
+  font-family: "Open Sans", "Avenir Next", system-ui;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 14px;
+
+  color-scheme: light dark;
+  color: white;
+  background-color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  box-sizing: border-box;
+
+  --blue-main: #0C365A;
+  --blue-secondary: #325BAF;
+  --blue-tertiary: #23CEFD;
+  --black-main: #222222;
+  --green-main: #01D167;
+  --grey-main: #DDDDDD;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('./assets//fonts/avenir-next-medium.woff2') format('woff2');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('./assets//fonts/avenir-next-demibold.woff2') format('woff2');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('./assets//fonts/avenir-next-bold.woff2') format('woff2');
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.open-sans {
+  font-family: "Open Sans";
+}
+
+.avenir {
+  font-family: "Avenir Next";
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.relative {
+  position: relative;
+}
+
+.text-btn {
+  outline: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
