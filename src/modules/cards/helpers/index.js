@@ -54,5 +54,3 @@ export function deleteCard() {
     return [...cards.filter((card) => card.id !== id)];
   })
 }
-
-allCards.subscribe(console.log);
